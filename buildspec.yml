@@ -1,0 +1,13 @@
+version: 0.1
+
+phases:
+  build:
+    commands:
+      -echo Nothing to do get
+      artifacts:
+        files:
+          -index.html
+          -favicon.ico
+          -images/*
+          -Sushilkumar Nikam Resume.doc
+          -styles/main.css
