@@ -1,9 +1,20 @@
 version: 0.1
+
 phases:
-      artifacts:
-        files:
-          - index.html
-          - favicon.ico
-          - images/*
-          - Sushilkumar Nikam Resume.doc
-          - styles/main.css
+  install:
+    commands:
+      - printenv
+  build:
+    commands:
+      - echo
+  post_build:
+    commands:
+      - echo post build
+
+artifacts:
+  files:
+    - index.html
+    - favicon.ico
+    - images/*
+    - Sushilkumar Nikam Resume.doc
+    - styles/main.css
